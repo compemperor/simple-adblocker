@@ -1,4 +1,4 @@
-This is a simple adblocker that uses dnsmasq to block dns requests to specifis domains. 
+This is a simple adblocker that uses dnsmasq to block dns requests to specifik domains. 
 The domain list are downloaded from various sources see black_list_updater.py 
 
 Tested on ubuntu 16.04
