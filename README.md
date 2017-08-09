@@ -10,7 +10,7 @@ Usage:
   <li>3- sudo chmod +x ./blocker.sh</li> 
   <li>4- sudo ./blocker.sh</li> 
 </ul>
-<br>
 Now follow the instructions. 
+
 <br>
-(NOTE! <b> Please check the source code before running the scripts. Dont just run it, try to understand it </b> )
+( <span class="btn-danger"> NOTE! </span> <b> Please check the source code before running the scripts. Dont just run it, try to understand it </b> )
