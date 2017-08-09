@@ -17,7 +17,7 @@ cat <<BeginOfOpt
 
 Welcome to simple adblocker, this is nothing more than
 a script that uses dnsmasq and python to block ads/malware domains. 
-The script requiers that dnsmasq and python 2.7.x to be installed, it may/will change your existing dnsmasq
+The script requiers that dnsmasq and python 2.7.x are installed, it may/will change your existing dnsmasq
 confgurations.(apt-get install dnsmasq should do it)
 
 start - start/update dnsmasq and populate it with the latest blocked domain names, run it once in awhile to update the domain list 
