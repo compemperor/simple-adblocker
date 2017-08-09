@@ -13,4 +13,4 @@ Usage:
 Now follow the instructions. 
 
 <br>
-( <span class="btn-danger"> NOTE! </span> <b> Please check the source code before running the scripts. Dont just run it, try to understand it </b> )
+( NOTE! <b> Please check the source code before running the scripts. Dont just run it, try to understand it </b> )
