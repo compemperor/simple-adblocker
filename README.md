@@ -9,6 +9,8 @@ Usage:
   <li>2- download the source files(black_list_updater.py,blocker.sh,hosts.txt,user_list.txt) to a directory and cd into that directory</li>
   <li>3- sudo chmod +x ./blocker.sh</li> 
   <li>4- sudo ./blocker.sh</li> 
-
-Now follow the instructions.  
-
+</ul>
+<br>
+Now follow the instructions. 
+<br>
+(NOTE! <b> Please check the source code before running the scripts. Dont just run it, try to understand it </b> )
