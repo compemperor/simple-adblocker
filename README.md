@@ -13,9 +13,13 @@ Usage:
 Now follow the instructions. 
 
 <br>
-( NOTE! <b> Please check the source code before running the scripts. Don't just sudo it, try to understand it </b> )
-
-<br>
 <ul>
   <li> version 1.1 added white list </li>
   </ul> 
+
+<br>
+<hr>
+<br> 
+( NOTE! <b> Please check the source code before running the scripts. Don't just sudo it, try to understand it </b> )
+
+
