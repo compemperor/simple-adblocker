@@ -129,6 +129,13 @@ def Update_user_list():
     finally:
         return  data
 
+def configure_white_list(data):
+    white_list = open("white_list.txt",'a+')
+    white_list_data = white_list.read()
+
+    for domain in white_list_data.split('\n') :
+        data = data.replace(domain,"")
+    return data
 
 
 def Join_and_save():
@@ -137,9 +144,12 @@ def Join_and_save():
         host_file= open("hosts.txt","w+")
         data = Update_steve_() + Update_malw_() + Update_came_() + Update_zeus_() \
         + Update_simtrck_() + Update_simad_() + Update_ad_serv_() + Update_user_list()
+
+        print "Configuring the white list..."
+        data = configure_white_list(data)
+
         print "Formating the hosts file...."
         data = re.sub(r'#.*', "", data)
-
 
         reformatted = ""
         for li in data.split('\n'):
